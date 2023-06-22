@@ -1,0 +1,37 @@
+
+"settings"
+syntax on
+set background=dark
+colorscheme desert
+set number
+
+" --- mappings --- "
+inoremap jk <esc>
+
+" --- font --- "
+"set guifont=Fira\ Code\ SemiBold:h11"
+
+" --- system copy --- "
+"set clipboard=unnamedplus"
+
+" --- remove sound effects --- "
+set noerrorbells
+set visualbell
+
+" --- search / regexp --- "
+set gdefault                
+set magic                   
+set hlsearch                
+set incsearch               
+set ignorecase smartcase    
+
+set wrap
+
+" indentation "
+set expandtab                   " Expand tabs to spaces
+set autoindent smartindent      " auto/smart indent
+set copyindent                  " copy previous indentation on auto indent
+set softtabstop=2               " Tab key results in # spaces
+set tabstop=2                   " Tab is # spaces
+set shiftwidth=2                " The # of spaces for indenting.
+set smarttab       
